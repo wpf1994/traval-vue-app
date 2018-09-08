@@ -1,0 +1,1 @@
+export const TOURIST_LIST_INFO = 'TOURIST_LIST_INFO'

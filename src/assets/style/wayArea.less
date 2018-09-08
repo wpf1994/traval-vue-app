@@ -1,0 +1,250 @@
+.self-show-style{
+  z-index: 99999999 !important;
+  background:rgba(0,0,0,.7)!important;
+}
+.provide-show-style{
+  z-index: 99999999 !important;
+}
+.select-icon{
+  margin-left: 5px;margin-left: 5px;
+  line-height: 44px;
+  color: #12d2ac;
+  font-size: 50px;
+}
+.my-area-intro-div{
+  margin: 0 10px;
+  color: #fff;
+  span:last-child{
+    float: right;
+    color: #0090ff;
+  }
+}
+
+.select-wrapper {
+  position: relative;
+
+  select {
+    appearance: none;
+    position: relative;
+    border: 1px solid #12d2ac;
+    height: 44px;
+    font-size: 22px;
+    color: #fff;
+    width: 100%;
+    background-color: #333;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  &:after{
+    content: " ";
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-width: 0px 2px 2px 0;
+    border-color: #12d2ac;
+    border-style: solid;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -15px;
+    transform: rotate(45deg);
+  }
+}
+
+.search-box {
+  position: relative !important;
+  width: 100% !important;
+}
+
+.area-select-msg-icon {
+  text-align: center;
+  border-bottom: 1px solid #979797;
+  padding-bottom: 3px;
+
+  i {
+    margin: 0 10px;
+    background-color: #8f8c8c;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 22px;
+    color: #ff8e32;
+    vertical-align: middle;
+    border-radius: 50%;
+  }
+
+}
+.self-way-select-list:first-child{
+  border-top: 1px solid #454545;
+}
+.self-way-select-list {
+  height: 40px;
+  line-height: 40px;
+  font-size: 22px;
+  border-bottom: 1px solid #454545;
+  display: inline-flex;
+  position: relative;
+  width: 100%;
+
+  .self-way-select-name {
+    padding-left: 20px;
+
+    span {
+      width: 100%;
+      display: block;
+      overflow: hidden;
+      white-space: nowrap;
+      color: #fff;
+    }
+
+  }
+  .self-way-select-icon {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: auto;
+  }
+
+}
+.select-go-way {
+
+  .way-item-style {
+
+    .way-item-label-title {
+      color: #FF630C;
+    }
+
+    .way-item-label-title:after {
+      content: "";
+      display: inline-block;
+      margin-left: 15px;
+      width: 20px;
+      height: 12px;
+      border: 1px solid #FF630C;
+      border-width: 0px 0 3px 3px;
+      -webkit-transform: rotate(315deg);
+      transform: rotate(315deg);
+    }
+
+  }
+}
+.button-select-way {
+  position: absolute;
+  bottom: 55px;
+  z-index: 6666;
+  width: 100%;
+
+  .button-sign-in {
+    margin-top: 0px;
+  }
+
+}
+
+.pop-item{
+  .tabBar-bottom {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #f7f7fa;
+    z-index: 500;
+    height: 60px;
+    font-size: 20px;
+  }
+  .pop-up-bottom-select {
+    color: #12d2ab;
+  }
+}
+.vux-popup{
+  .pop-item
+}
+.vux-popup-show{
+  .pop-item
+}
+.way-area-button-position {
+  position: fixed;
+  bottom: 0;
+  top: 45%;
+  right: 20px;
+  text-align: center;
+
+  .icon-text-div:first-child {
+    margin-bottom: 5px;
+  }
+
+  .icon-text-div {
+    background-color: #12d2ab;
+    color: #fff;
+    padding: 5px 15px;
+    box-shadow: 5px 5px 5px #888888;
+  }
+
+  .icon-text-div i {
+    font-size: 25px;
+  }
+
+  .icon-text-div span {
+    font-size: 15px;
+  }
+
+}
+.dialog-demo {
+
+  .weui-dialog {
+    background-color: #f3f3fd;
+    border-radius: 8px;
+    padding-bottom: 8px;
+    z-index: 999999999;
+  }
+
+  .img-box {
+    margin: 5px 5px -5px 5px;
+  }
+
+  .text-box {
+    position: relative;
+    margin: 0 5px;
+
+    .text-div-tox {
+      position: absolute;
+      bottom: 0px;
+      background-color: #333;
+      width: 100%;
+      opacity: 0.5;
+      color: #fff;
+      font-size: 18px;
+      text-align: left;
+      height: 30px;
+      line-height: 30px;
+
+      span {
+        padding-left: 10px;
+      }
+
+    }
+  }
+  .close-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #979797;
+    background-color: #f3f3fd;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .message-dialog-text {
+    background-color: #ffffff;
+    margin: 0 5px;
+    height: 150px;
+    overflow-y: scroll;
+
+    p {
+      margin: 0;
+      text-indent: 2em;
+      text-align: left;
+    }
+
+  }
+}
